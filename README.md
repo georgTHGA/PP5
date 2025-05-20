@@ -46,7 +46,39 @@ In this exercise you will:
 # Paste here the sequence of git commands you ran
 # and the relevant terminal output (e.g., branch listing, merge messages)
 ```
+georg@Georg_Notebook:~$ mkdir PP5georg2
+georg@Georg_Notebook:~$ cd PP5georg2
+georg@Georg_Notebook:~/PP5georg2$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/georg/PP5georg2/.git/
+georg@Georg_Notebook:~/PP5georg2$ git status
+On branch master
 
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+georg@Georg_Notebook:~/PP5georg2$ branch feature-1
+Command 'branch' not found, but can be installed with:
+sudo apt install rheolef
+georg@Georg_Notebook:~/PP5georg2$ sudo apt install rheolef
+
+georg@Georg_Notebook:~/PP5georg2$ git branch feature-1
+fatal: not a valid object name: 'master'
+georg@Georg_Notebook:~/PP5georg2$ touch feature-1
+georg@Georg_Notebook:~/PP5georg2$ git add feature-1
+georg@Georg_Notebook:~/PP5georg2$ git commit -m "Initial commit"
+[master (root-commit) f9a43f5] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 feature-1
 ---
 
 ### Task 2: Bare Repository on an SSH Server

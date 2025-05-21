@@ -44,8 +44,6 @@ In this exercise you will:
 
 ```bash
 # Paste here the sequence of git commands you ran
-# and the relevant terminal output (e.g., branch listing, merge messages)
-```
 georg@Georg_Notebook:~$ mkdir PP5georg2
 georg@Georg_Notebook:~$ cd PP5georg2
 georg@Georg_Notebook:~/PP5georg2$ git init
@@ -77,6 +75,10 @@ georg@Georg_Notebook:~/PP5georg2$ touch feature-1
 georg@Georg_Notebook:~/PP5georg2$ git add feature-1
 georg@Georg_Notebook:~/PP5georg2$ git commit -m "Initial commit"
 [master (root-commit) f9a43f5] Initial commit
+
+# and the relevant terminal output (e.g., branch listing, merge messages)
+```
+
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 feature-1
 ---

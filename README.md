@@ -103,7 +103,9 @@ georg@Georg_Notebook:~/PP5georg2$ git commit -m "Initial commit"
 ```bash
 # Paste here the push & clone commands and outputs
 ```
-
+ ssh user10@128.140.85.215 \
+     "mkdir -p ~/repos/myproject.git && cd ~/repos/myproject.git && git init --bare"
+git remote add origin-ssh user10@128.140.85.215:~/repos/myproject.git
 ---
 
 ### Task 3: GitHub & THGA GitLab
@@ -124,6 +126,9 @@ georg@Georg_Notebook:~/PP5georg2$ git commit -m "Initial commit"
 
 ```bash
 # Paste here the remote‐adding & push outputs
+
+git remote add github  git@github.com:georgTHGA/myproject-gh.git
+   git remote add gitlab  git@gitlab.thga.de:georgTHGA/myproject-gl.git
 ```
 
 ---
